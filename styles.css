@@ -1,0 +1,72 @@
+/*I have imported poppins*/
+/*BrianLovesCode*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif 
+}
+body{
+    min-height:100vh;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    background: #e3f2fd;   
+}
+.container{
+    position: relative;
+    background-color: #fff;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    padding: 25px;
+    border-radius: 25px;
+    max-width: 1000px;
+    width: 400px;
+    box-shadow: 5px 5px 15px black;
+   
+
+
+}
+header,
+.Alogo{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;  
+    align-content: flex-end;
+
+} 
+.logo{
+    width: 60px;
+    margin-right: 10px;
+
+}
+.chip{
+      width: 80px;
+}
+h5{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+h5.number{
+    margin-top: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+h5.name{
+    font-size: 12px;
+}
+h6{
+    color: #fff;
+    font-size: 12px;
+}
+.card-details{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+}
